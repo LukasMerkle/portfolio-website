@@ -1,14 +1,13 @@
 ---
-site_title: John Macdonald
-page_title: John Macdonald
-subtitle: Super excited about robotics and working hard to put robots to work for people.
-tagline: These are some of the robots I've worked on recently, including some pictures and videos. Hope you enjoy!
+site_title: Lukas Merkle
+page_title: Lukas Merkle
+subtitle: Excited about any kind of work involving robotics and automation, particularly in the field of perception and planning.
+tagline: Below are some of my projects that I am thrilled to share with you. Feel free to browse through all the available descriptions and media.
 
 social_links:
-- name: Twitter
-  link: https://twitter.com/jnmacdnld
 - name: LinkedIn
-  link: https://www.linkedin.com/in/john-joseph-macdonald/
+  link: https://www.linkedin.com/in/lukas-merkle/
 
 google_analytics_id: UA-109652169-1
 ---
+    
