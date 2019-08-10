@@ -18,7 +18,7 @@ info:
   application: Manipulation of blocks/ construction
 
 org:
-  name: Carnegie Mellon University, MRSD program
+  name: MRSD Captstone project, Carnegie Mellon University
   link: https://mrsdprojects.ri.cmu.edu/2018teamc/
 
 personal:
@@ -34,28 +34,23 @@ media:
     A summary of the work that was achieved during Spring 2019. It includes
     a simulation, block detection and block placement.
 
-- type: video 
-  src: https://www.youtube.com/embed/JgrY1aPXASY
-  width: 800
-  height: 600
-  caption:
-    A visualization of the person tracker in rviz. Blue points near the
-    tracked_person coordinate frame are particles from the particle filter;
-    other points are 3D points from the depth sensor.
-
 - type: image
-  src: person_tracker_block.png
+  src: Func_arch.jpg
   caption: 
-    Block diagram of the perception for the person follower.
-    I implemented the Person Tracker section.
+      Functional Architecture of the system
 
 - type: image 
-  src: person_tracker_telemetry.png
+  src: drone_setup.png
   caption: 
-    Visualization of the robot telemetry in rviz. Blue points near the
-    tracked_person coordinate frame are particles from the particle filter;
-    other points are 3D points from the depth sensor.
+    Describtive UAV setup that was developed
+
+- type: video
+  src: https://www.youtube.com/embed/gDecDPKogvs
+  width: 800
+  height: 450
+  caption: 
+    Position hold based on aruco marker detections 
 
 ---
 
-The main goal of this project is to assemble a specified structure, such as a wall, by using a UAV equipped with a manipulator. This system will compete in the third challenge of the MBZIRC competition in Abu Dhabi in February 2020. It makes use of a Hexcopter running Pixhawk as a flight controller, a Nuc as the main computer and a costomed designed manipulator arm attached at the bottom of the drone.  
+The main goal of this project is to assemble a specified structure, such as a wall, by using a UAV equipped with a manipulator. This system will compete in the third challenge of the MBZIRC competition in Abu Dhabi in February 2020. It makes use of a Hexcopter running Pixhawk as a flight controller, a Intel NUC as the main computer and a costum designed manipulator arm attached at the bottom of the drone. 
