@@ -62,7 +62,9 @@
 <ul>
   {{ with .Params.info }}
     <li>Robot Type: {{ .robot_type }}</li>
+    {{if .application}}
     <li>Application: {{ .application }}</li>
+    {{ end }}
   {{ end }}
   <li>Organization: 
     {{ with .Params.org }}
