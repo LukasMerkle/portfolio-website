@@ -2,11 +2,12 @@
 title: Landing Gear Bearing Test Machine
 type: project
 date: 2018-05-00T11:13:20+00:00
+weight: 10
 
 thumb:
   description: 
     A test  machine that simulates wear on a airplane's landing gear bearing
-  img: machine_thumb.png
+  img: machine_thumb2.png
 
 highlights:
 - Designed and built bearing test machine to simulate wear on bearing through axial sliding and radial load
@@ -21,14 +22,18 @@ org:
   name: Senior Design Project, University of Arizona
 
 personal:
-  role: Pneumatic control and modelling engineer 
+  role: Pneumatic control and modeling engineer 
   timeframe: August 2017 – May 2018
 
 media:
 - type: image
+  src: machine_dDay.jpg
+  caption: 
+      Final Landing Gear Bearing Test Machine
+- type: image
   src: machine_setup.png
   caption: 
-      Diagram of the Neuromuscular Locomotion Model's overall implementation
+      Diagram that show all forces acting on the rod and bearing that cause wear
 
 - type: video
   src: https://www.youtube.com/embed/8z3NLdmSTyI
@@ -40,5 +45,7 @@ media:
 
 ---
 
-The goal of this project was to design a test bench that simulates the wear of an airplane's landing gear bearing when it lands. This wear is caused by two main things: During landing, the landing gear compresses and a large rod slides along the bearing. Due to the landing impact, there is also a large radial load applied on the bearing. The combination of the two causes wear and the bearing has to be switched out after a certain amount of cycles. However, the number of cycles is hard to estimate by theoretical analysis, which explains the need for this test bench. 
+The goal of this project was to design a test bench that simulates the wear of an airplane's landing gear bearing when it lands. This wear is caused by two main things: During landing, the landing gear compresses and a large rod slides along the bearing. Due to the landing impact, there is also a large radial load applied on the bearing. The combination of the two causes wear and the bearing has to be switched out after a certain amount of cycles. However, the number of cycles is hard to estimate by theoretical analysis, which explains the need for this test bench.
+
+The system consists of two major mechanisms. The sliding of the rod is caused by a slider-crank mechanism, which is driven by a strong motor. The rod is guided by the test bearing as well two additional bearings on both sides of the test  bearing. There is also the need to apply a force of up to 3000 lbs on the test bearing to simulate the radial load during landing. This was achieved by two double-acting pneumatic cylinder stacked on top of each other to reduce the footprint. It was controlled by an electric solenoid valve via LABVIEV.
 

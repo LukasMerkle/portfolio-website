@@ -6,12 +6,14 @@ date: 2018-05-00T11:13:20+00:00
 thumb:
   description: 
     A fully autonomous UAV that grasps blocks and stacks them on top of each other
-  img: drone.jpg
+  img: drone2.jpeg
 
 highlights:
-- Leading a team of 5 Graduate Students to develope a UAV that will compete in the MBZIRC Challenge 2020 in Abu-Dhabi 
-- Designed manipulator using permanent electro magnets and its underlying control algorithm
-- 
+- Developed strategies to assemble a wall made out of 1.5 kg blocks using a hexcopter and manipulator
+- Designed gripping mechanism and control algorithm to grasp blocks with an electromagnet
+- Used neural network to perform detection and classification of target objects
+- Lead team of 5 graduate students to participate in the third challenge of the MBZIRC competition
+
 
 info:
   robot_type: Hexacopter using Pixhawk and Jetson
@@ -53,4 +55,6 @@ media:
 
 ---
 
-The main goal of this project is to assemble a specified structure, such as a wall, by using a UAV equipped with a manipulator. This system will compete in the third challenge of the MBZIRC competition in Abu Dhabi in February 2020. It makes use of a Hexcopter running Pixhawk as a flight controller, a Intel NUC as the main computer and a costum designed manipulator arm attached at the bottom of the drone. 
+The main goal of this project is to assemble a specified structure, such as a wall, by using a UAV equipped with a manipulator. This system will compete in the third challenge of the MBZIRC competition in Abu Dhabi in February 2020. It makes use of a Hexcopter running Pixhawk as a flight controller, an Intel NUC as the main computer and a costum designed manipulator arm attached at the bottom of the drone. 
+
+The overall strategy to build such a structure is as follows: The UAV will identify the location of the blocks with YOLO and will use GPS to navigate to the general region of interest. It then visual servos towards the desired block and graps it with the electromagnet attached to the manipulator at the bottom of the drone. Similarly, the system uses GPS again to get to the location to build the structure. Finally, it uses a modified visual servoing algorithm to assemble the wall block by block. 

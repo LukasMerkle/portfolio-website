@@ -2,11 +2,11 @@
 title: LoCoBot
 type: project
 date: 2018-05-00T11:13:20+00:00
-
+weight: 2
 thumb:
   description: 
     Scene analysis and manipulation of small blocks using a 5 DoF low cost arm
-  img: LoCoBot.jpg
+  img: LoCoBot2.jpg
 
 highlights:
 - Developed control algorithms of a 5 DoF robotic arm to perform manipulation tasks
@@ -47,8 +47,8 @@ media:
 
 ---
 
-This project was all about exploring what can be done with a low cost robot that does not have the accurcay and precision of a industrial manipulator. First, control algorithms were implemented such that the arm can move to any given x-y-z position in its reach. This was done with the .... . Next, a vision pipeline using a realsense was implemented. It was able to segnment out green, blue and red blocks based on their color and shape and determined its location in the robot frame. With this method, it was possible to grasp these blocks and place them at desired locations.
+This project was all about exploring what can be done with a low cost robot that does not have the accuracy and precision of a industrial manipulator. First, forward and inverse kinematics were implemented such that the arm can move to any given x-y-z position in its reach. Next, a vision pipeline using a Realsense was implemented. It was able to segment out green, blue and red blocks based on their color and shape and determined its location in the robot frame. With this method, it was possible to grasp these blocks and place them at desired locations.
 
-However, due to the inaccuracy of the arm, this was not satisfying since the arm did not always grasp the blocks in the middle, which lead to errors while placing them. To improve this, visual servoing was implemented using a second camera attached at the wrist of the arm. The manipulator was now able to go to a roughly correct location from the vision algorithm, to servo towards the center of the block until it converged and to grasp it in the middle. 
+However, due to the inaccuracy of the arm, this was not satisfying since the arm did not always grasp the blocks in the middle, which lead to errors while placing them. To improve this, visual servoing was implemented using a second camera attached at the wrist of the arm. The manipulator was now able to go to a roughly correct location from the vision algorithm, to servo towards the center of the block until it converged and to grasp it in the middle.
 
-Finally, a similar method was used the analyse a given block structure on one side of the robot and replicate it on the other side of the arm using all methods described above. The robot detects the location of each block first using the real sense. It then identifies their exact locations with visual servoing and adds an offset to them to shift them to the other side of the robot. At last, it picks them up using visual servoing and places them at the new desired locations.
+Finally, a similar method was used the analyze a given block structure on one side of the robot and replicate it on the other side of the arm using all methods described above. The robot detects the location of each block using the real sense. It then identifies their exact locations with visual servoing and adds an offset to them to shift them to the other side of the robot. At last, it picks them up using visual servoing and places them at the new desired locations.

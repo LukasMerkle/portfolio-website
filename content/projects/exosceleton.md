@@ -2,11 +2,11 @@
 title: Hip Exoskeleton
 type: project
 date: 2018-05-00T11:13:20+00:00
-
+weight: 8
 thumb:
   description: 
     Simulation of hip exosceleton for elderly to prevent falling 
-  img: bio_thumb.png
+  img: bio_thumb2.png
 
 highlights:
 - Implemented a Neuromuscular Locomotion Model using MATLAB Simulink to simulate human walking
@@ -24,18 +24,16 @@ personal:
   timeframe: February 2019 – May 2019
 
 media:
-- type: image
-  src: bio_diagram.png
-  caption: 
-      Diagram of the Neuromuscular Locomotion Model's overall implementation
-
 - type: video
   src: https://www.youtube.com/embed/T2jrt6l4vP4
   width: 800
   height: 600
   caption:
     Simulated effects of neural delay and muscle deterioration that causes elderly falling. Regained gait stability is achieved by a PD controller at the hip, which simulates a hip exoskeleton
-
+- type: image
+  src: bio_diagram.png
+  caption: 
+      Diagram of the Neuromuscular Locomotion Model's overall implementation
 - type: image
   src: noPD_f.jpg
   caption: 
