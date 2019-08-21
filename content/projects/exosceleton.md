@@ -5,7 +5,7 @@ date: 2018-05-00T11:13:20+00:00
 weight: 8
 thumb:
   description: 
-    Simulation of hip exosceleton for elderly to prevent falling 
+    Simulation of hip exoskeleton for elderly to prevent falling 
   img: bio_thumb2.png
 
 highlights:
@@ -14,7 +14,8 @@ highlights:
 - Improved stabiliy by adding PD controller at the hip to prevent falling
 
 info:
-  robot_type: Simulation of medical device
+  robot_type: Simulation of Medical Robot
+  application: Medical Industry
 
 org:
   name: Biomechanics and Controls Course, Carnegie Mellon University

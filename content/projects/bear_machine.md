@@ -6,7 +6,7 @@ weight: 10
 
 thumb:
   description: 
-    A test  machine that simulates wear on a airplane's landing gear bearing
+    A test machine that simulates wear on a airplane's landing gear bearing
   img: machine_thumb2.png
 
 highlights:
@@ -16,10 +16,12 @@ highlights:
 - Won „Best Design Documentation“ and „Frank Broyles Engineering Ethics Award“
 
 info:
-  robot_type: Test machine for Aerospace Industry
+  robot_type: Automated Test Bench
+  application: Aerospace Industry
 
 org:
-  name: Senior Design Project, University of Arizona
+  name: Senior Design Project in collaboration with RBC Bearings
+  link: http://www.rbcbearings.com/
 
 personal:
   role: Pneumatic control and modeling engineer 

@@ -16,7 +16,8 @@ highlights:
 
 info:
   robot_type: 5 DoF Manipulator Arm
-  application: Exploration of new algorithms for reasonble manipulator cost
+  link: https://www.pyrobot.org/
+  application: Manipulation of small objects
 
 org:
   name: Robot Autonomy course, Carnegie Mellon University

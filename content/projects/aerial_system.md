@@ -2,6 +2,7 @@
 title: Aerial Manipulation System
 type: project
 date: 2018-05-00T11:13:20+00:00
+weight: 1
 
 thumb:
   description: 
@@ -17,7 +18,7 @@ highlights:
 
 info:
   robot_type: Hexacopter using Pixhawk and Jetson
-  application: Manipulation of blocks/ construction
+  application: Automated Construction
 
 org:
   name: MRSD Captstone project, Carnegie Mellon University
