@@ -11,7 +11,7 @@ thumb:
 highlights:
 - Implemented a Neuromuscular Locomotion Model using MATLAB Simulink to simulate human walking
 - Induced external disturbances to simulate falling in the elderly
-- Improved stabiliy by adding PD controller at the hip to prevent falling
+- Improved stability by adding PD controller at the hip to prevent falling
 
 info:
   robot_type: Simulation of Medical Robot
@@ -21,7 +21,7 @@ org:
   name: Biomechanics and Controls Course, Carnegie Mellon University
 
 personal:
-  role: Team Lead, Modelling and Controls engineer 
+  role: Team Lead, Modeling and Controls engineer 
   timeframe: February 2019 – May 2019
 
 media:
@@ -43,7 +43,7 @@ media:
 - type: image
   src: pd_noW_f.jpg
   caption: 
-      Effects of neural delay and muscle deterioration WTIH PD controller
+      Effects of neural delay and muscle deterioration WITH PD controller
 
 ---
 

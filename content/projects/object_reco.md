@@ -6,7 +6,7 @@ weight: 5
 
 thumb:
   description: 
-    A system to classify objets in a warehouse with Faster R-CNN 
+    A system to classify objects in a warehouse with Faster R-CNN 
   img:  pallet_thumb.png
 
 highlights:

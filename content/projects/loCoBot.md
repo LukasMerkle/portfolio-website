@@ -10,7 +10,7 @@ thumb:
 
 highlights:
 - Developed control algorithms of a 5 DoF robotic arm to perform manipulation tasks
-- Implemented vision system to identify small blocks‘ center, orietnation and color 
+- Implemented vision system to identify small blocks‘ center, orientation and color 
 - Improved robot“s precision by adding visual servoing towards the center of blocks
 - Combined implementations to perform scene analysis of a given structure to rebuild it on the other side of the robot 
 

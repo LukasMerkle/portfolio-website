@@ -21,7 +21,7 @@ info:
   application: Automated Construction
 
 org:
-  name: MRSD Captstone project, Carnegie Mellon University
+  name: MRSD Capstone project, Carnegie Mellon University
   link: https://mrsdprojects.ri.cmu.edu/2018teamc/
 
 personal:
@@ -45,7 +45,7 @@ media:
 - type: image 
   src: drone_setup.png
   caption: 
-    Describtive UAV setup that was developed
+    Descriptive UAV setup that was developed
 
 - type: video
   src: https://www.youtube.com/embed/gDecDPKogvs
@@ -56,6 +56,6 @@ media:
 
 ---
 
-The main goal of this project is to assemble a specified structure, such as a wall, by using a UAV equipped with a manipulator. This system will compete in the third challenge of the MBZIRC competition in Abu Dhabi in February 2020. It makes use of a Hexcopter running Pixhawk as a flight controller, an Intel NUC as the main computer and a costum designed manipulator arm attached at the bottom of the drone. 
+The main goal of this project is to assemble a specified structure, such as a wall, by using a UAV equipped with a manipulator. This system will compete in the third challenge of the MBZIRC competition in Abu Dhabi in February 2020. It makes use of a hexcopter running Pixhawk as a flight controller, an Intel NUC as the main computer and a custom designed manipulator arm attached at the bottom of the drone. 
 
-The overall strategy to build such a structure is as follows: The UAV will identify the location of the blocks with YOLO and will use GPS to navigate to the general region of interest. It then visual servos towards the desired block and graps it with the electromagnet attached to the manipulator at the bottom of the drone. Similarly, the system uses GPS again to get to the location to build the structure. Finally, it uses a modified visual servoing algorithm to assemble the wall block by block. 
+The overall strategy to build such a structure is as follows: The UAV will identify the location of the blocks with YOLO and will use GPS to navigate to the general region of interest. It then visual servos towards the desired block and grasps it with the electromagnet attached to the manipulator at the bottom of the drone. Similarly, the system uses GPS again to get to the location to build the structure. Finally, it uses a modified visual servoing algorithm to assemble the wall block by block. 
