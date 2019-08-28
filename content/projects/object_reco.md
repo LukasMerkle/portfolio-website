@@ -47,4 +47,10 @@ media:
 
 ---
 
+The main goal of this project was to detect and classify objects that are typically seen in warehouses, such as pallets, forklifts and boxes. These detections can then be further used for navigation or manipulation tasks. To achieve this, it was decided to use Faster R-CNN, since it has shown promising results in the community and performs well in terms of accuracy as well as speed.
+
+First, one network was trained for each object. Once these networks perform relatively well, they can be used to create more labeled data, since the network is now able to reliable label images by itself. All of the previously labeled data as well as the new labels create by the networks can now be used to train one final network that detects and classifies all of the desired objects.
+
+To reduce the labeling effort even more, a pipeline was created to augment labeled images. This included rotation, translation, shear, scale and change in brightness. Each image was augmented 9 times and was used to train the networks. A sample augmentation is shown above. 
+
 
