@@ -1,5 +1,5 @@
 ---
-title: Object Recognition with Faster R-CNN
+title: Object Detection with Faster R-CNN
 type: project
 date: 2018-05-00T11:13:20+00:00
 weight: 5
