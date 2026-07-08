@@ -9,7 +9,7 @@
         {{ partial "top-bar.html" . }}
       <p> Below are some of my projects that I am thrilled to share with you. Feel free to browse through all the available descriptions and media.</p>
 
-            {{ $pag := .Paginate (where .Data.Pages "Type" "project") }}
+            {{ $pag := .Paginate (where site.RegularPages "Type" "project") }}
             <div class="container no-padding"><div class="row">
                 
             {{ range $pag.Pages }}
